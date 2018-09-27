@@ -427,7 +427,7 @@ input[type=submit]:hover {
 
 
 /* Detta är kod för mobilskärmar*/
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 768px) {
     [class*="box-"] {
         width: 100%;
     }
