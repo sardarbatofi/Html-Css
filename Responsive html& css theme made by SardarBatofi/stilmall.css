@@ -1,0 +1,532 @@
+
+/*Allmänt Global*/
+* {
+    box-sizing: border-box;
+}
+
+body{
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.content::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*Detta innebär att boxarna ska flyta åt vänster och ha en padding(luft mellan farandra på 15px)*/
+[class*="box-"] {
+    float: left;
+    padding: 15px;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+
+a{
+ text-decoration: none;
+}
+
+/*Header*/
+header {
+    background: linear-gradient(to bottom left, #005ee4, yellow, #0129ec);
+    color: #ffffff;
+    padding: 15px;
+}
+header h1, header h3{
+color:white;
+}
+
+header h3 {
+    margin-top: -2%;
+    padding-left: 8px;
+}
+
+
+
+
+
+/*Meny*/
+
+.box-3.menu {
+    position: fixed;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    background-color: #005ee4;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color:white;
+    margin: 0 auto;
+}
+
+.menu li a{
+  color:white;
+}
+
+ .menu li a:hover {
+ font-weight: bold;
+ 
+}
+.menu li:hover {
+ font-weight: bold;
+ background-color: #0146a7;
+}
+
+li.active {
+background-color: #0146a7;
+}
+
+
+
+.aside {
+    background-color: #005ee4;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+
+/*footer inställningar*/
+.footer {
+    background-color: #005ee4;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.footer-box{
+    display: inline-flex;  
+}
+
+.footer-content {
+    padding: 1px 1px 1px 207px;
+    margin-left: -4%;
+}
+
+.footer-socialmedia {
+   
+}
+
+.footer a{
+    color:white;
+}
+
+.footer a:hover{
+    font-weight:bold;
+}
+
+
+
+
+
+/* Detta är box informationen för stationära skärmar */
+.box-1 {width: 8.33%;}
+.box-2 {width: 16.66%;}
+.box-3 {width: 25%;}
+.box-4 {width: 33.33%;}
+.box-5 {width: 41.66%;}
+.box-6 {width: 50%; margin-left: 25%;}
+.box-7 {width: 58.33%;}
+.box-8 {width: 66.66%;}
+.box-9 {width: 75%;}
+.box-10 {width: 83.33%;}
+.box-11 {width: 91.66%;}
+.box-12 {width: 100%;}
+
+
+/*Inställningar för första sidan (Home page)*/
+ul.home-facts {
+    list-style: none;
+    text-align: left;
+}
+
+
+p.home-facts-bold {
+    font-weight: 800;
+    color: #fffb08;
+    font-size: 14px;
+}
+
+span.home-fact-bold {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: times, sans-serif;
+    color:white;
+}
+
+img.index-slide-img1{
+  width:100%; 
+  height: 53.5vh; 
+  margin-top: -3%;
+}
+img.index-slide-img2{
+  width:100%; 
+  height: 50.5vh;
+}
+img.index-slide-img3{
+  width:100%; 
+  height: 50.5vh;
+}
+
+img.index-slide-img4{
+  width:100%; 
+  height:50.5vh;
+}
+
+
+#slideshow-index {
+    overflow: hidden;
+    height: 52vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slide-wrapper-index {
+  width: 1412px;
+  -webkit-animation: slide 12s  infinite;
+
+}
+
+.slider {
+    float: left;
+    height: 23vh;
+    width: 22%;
+    margin-top: 0%;
+    margin-left: 0.0%;
+}
+
+
+
+img.sverige-karta {
+    height: 73vh;
+    
+}
+
+/*Inställningar för historia sidan*/
+
+span.history-source {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+span.history-source a{
+    color:black;
+}
+
+.history-scroll {
+    overflow: scroll;
+    height: 64vh;
+}
+
+
+
+.sliderside {
+    padding: 9.5%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    width: 100%;
+    height: 31vh;
+}
+
+
+/*historia bildspel*/
+.box-3.history-slide {
+    width: 25%;
+    height: 208px;
+    margin-top: 25px;
+    margin-left: 25%;
+}
+
+.box-6.history {
+    margin-left: 50%;
+    margin-top: -20%;
+}
+
+
+#slideshow {
+    overflow: hidden;
+    height: 24vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+.slide {
+    float: left;
+    height: 23vh;
+    width: 8%;
+    margin-top: 0%;
+    margin-left: 0.0%;
+}
+
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 10em;
+}
+
+
+@-webkit-keyframes slide {
+  0%  {margin-left: 0px;}
+  20% {margin-left: -235px;}
+  40% {margin-left: -470px;}
+  60% {margin-left: -700px;}
+  70% {margin-left: -700px;}
+  80% {margin-left: -470px;}
+  90% {margin-left: -235px;}
+  100% {margin-left: 0px;}
+}
+
+img.history-slide-img1{
+  width:100%; 
+  height: 26.5vh; 
+  margin-top: -3%;
+}
+img.history-slide-img2{
+  width:100%; 
+  height: 25vh;
+}
+img.history-slide-img3{
+  width:100%; 
+  height: 25vh;
+}
+
+img.history-slide-img4{
+  width:100%; 
+  height: 25vh;
+}
+
+
+
+/*swedish-biggest-cities*/
+img.map-storstader {
+    width: 100%;
+}
+
+.aside-storstader {
+    padding: 15px;
+    position: fixed;
+    width: 17%;
+}
+
+iframe.bigcities{
+  width:73%; 
+  height:38vh;
+  border:0; 
+}
+
+
+/*Swedish nature*/
+
+.box-6.natur {
+    width: 70%;
+}
+
+iframe.nature {
+    margin-top: 10%;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+    width: 68%;
+    height: 50vh;
+    border: 0;
+    margin-left: 14%;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem -1rem;
+}
+
+.gallery-item {
+  flex: 1 0 24rem; 
+  margin: 1rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.15);
+}
+
+@supports (display: grid) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 2fr));
+    grid-gap: 1rem;
+  }
+
+  .gallery,
+  .gallery-item {
+    margin: 0;
+  }
+}
+
+
+/*Attractions page*/
+img.attraction-img{
+  width: 98%; height: 40vh;
+}
+
+/*about us*/
+p.active {
+  font-weight: bold;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+/* Detta är kod för mobilskärmar*/
+@media only screen and (max-width: 1366px) {
+    [class*="box-"] {
+        width: 100%;
+    }
+    
+    .box-6.natur {
+    width: 100%;
+}
+.box-6 {
+    margin: 0 auto;
+}
+
+.box-3.menu {
+    position: static;
+}
+.menu li{
+    color:white;
+    margin-bottom: 7px;
+}
+.menu li a {
+    color: white;
+    padding-left: 42%;
+    font-size: 20px;
+}
+
+
+ /*IndexPage homePage*/
+
+ img.sverige-karta {
+    width: 66%;
+    height: 73vh;
+    margin-top: -1%;
+}
+
+
+    /*historypage*/
+    .box-3.history-slide {
+        width: 50%;
+        border:none;
+    }
+
+    .box-6.history {
+    margin-left: 0;
+    margin-top: 0;
+      }
+
+    .sliderside {
+      height: 28vh;
+      margin-top: -21%;
+      margin-left: -38%;
+      width: 149%;           
+    }
+ 
+
+    /*Biggestcities*/
+
+    .aside-storstader {
+       padding: 15px;
+       position: inherit;
+       width: 45%;
+       margin: auto;
+    }
+
+    /*Naturepage*/
+    @supports (display: grid) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 2fr));
+    grid-gap: 1rem;
+  }
+
+  .gallery,
+  .gallery-item {
+    margin: 0;
+  }
+
+
+  }
+
+
+  iframe.nature {
+    margin-top: 10%;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+    width: 66%;
+    height: 38vh;
+    }
+
+
+
+
+    /*Footer*/
+
+    .footer-box{
+        display: inline;
+        padding-right:10%;
+    }
+
+    .footer-content {
+        padding: 1px 1px 1px 7%;
+    }
+
+}
+
