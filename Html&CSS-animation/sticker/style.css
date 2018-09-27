@@ -1,0 +1,81 @@
+body {
+   background: white;
+}
+
+.sticker {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 5px;
+
+}
+
+#coding{
+  font-size: 40px;
+  font-weight:bold;
+  font-family:"Courier New";
+  background: linear-gradient(red, magenta);
+  padding: 50px 30px;
+  border-radius: 20px;
+}
+
+#web{
+  font-size: 40px;
+  font-family: impact;
+  text-shadow: 2px 2px grey;
+  background: radial-gradient(yellow, orange, red);
+  padding: 30px;
+  border-radius:100px;
+  
+}
+
+#miljo{
+  font-size: 40px;
+  font-family: impact;
+  text-shadow: 3px 2px red;
+  background: radial-gradient(Green, orange, lightgreen);
+  padding: 50px;
+  border-radius:50px;
+  color:white;
+  
+}
+
+#firerobot{
+  background: linear-gradient(to bottom left, white, yellow, tomato);
+  border:10px dashed tomato;
+   outline: 4px solid tomato;
+  outline-offset: 2px;
+  position:relative;
+  
+}
+
+#firetext{
+  font-size: 30px;
+  font-family:impact;
+  position: absolute;
+  left:10px;
+  transform:rotate(-15deg);
+  bottom:68px;
+  
+}
+
+
+#greenrobot{
+  background: linear-gradient(to bottom left, lightgreen, lightgreen, green);
+  border:10px  white;
+   outline: 4px solid lightgrey;
+  outline-offset: 5px;
+  position:relative;
+ margin-left:70px;
+  
+}
+
+#greentext{
+  font-size: 30px;
+  font-family:impact;
+  position: absolute;
+  left:30px;
+  bottom:5px;
+  color:white;
+  
+}

@@ -1,0 +1,82 @@
+span
+{
+	display: inline-block; 
+	margin: 8px; 
+	box-shadow: 1px 2px 2px grey; 
+}
+
+body {
+  background-color: white;
+	padding: 30px;
+	max-width: 350px;
+	margin: auto;
+}
+
+.newspaper {
+	background-color: antiquewhite;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+.magazine1  {
+  background-color: teal;
+  color:white;
+  font-family: Verdana;
+	font-weight: 900;
+	text-transform: uppercase; 
+}
+
+.magazine2 {
+	background-image: url('canvas.png');
+  color: fuchsia;
+  font-family: Verdana;
+	font-weight: 900;
+}
+
+.medium {
+	font-size: 20px;
+	padding: 8px;
+}
+
+.big {
+	font-size: 30px;
+	padding: 10px;
+}
+
+.reallybig {
+	font-size: 40px;
+	padding: 15px;
+	color:White;
+	Background:darkgrey;
+}
+
+.rotateleft {
+	transform: rotate(-20deg);
+}
+
+.rotateright {
+	transform: rotate(20deg);
+	background:red;
+}
+
+.skewleft {
+	transform: skewX(30deg);
+}
+
+.skewright {
+	transform: skewX(-30deg);
+}
+
+
+.comic{
+  background-color: yellow;
+  color:red;
+  font-weight:bold;
+  font-family: 'Bangers', cursive;
+  
+}
+
+.print{
+  background:url(computer-printout-paper.png);
+  font-family: 'VT323', monospace;
+}

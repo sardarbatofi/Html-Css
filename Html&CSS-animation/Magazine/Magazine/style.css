@@ -1,0 +1,111 @@
+
+body{
+background: linear-gradient(to bottom right, lemonchiffon, white);
+padding: 15px;
+font-family: verdana;
+}
+
+	h1{
+	  text-align: center;
+	  color:white;
+	  background:teal;
+	  padding:5px;
+	  
+	}
+	
+	.column1{
+	  width:48%;
+	  float:left;
+	}
+	
+	.column2{
+	  width:48%;
+	  float:right;
+	}
+	
+	img{
+	  max-width: 100%;
+	}
+	
+	.photo{
+	  box-shadow: 4px 4px 4px gray;
+	  transform: rotate(10deg);
+	}
+
+	
+	h2{
+	  color: white;
+	  background: teal;
+	  padding:5px;
+	  margin:0px 0px 10px 0px;
+	  box-shadow: 2px 2px 2px gray;
+	  text-align:center;
+	  
+	}
+	
+	.item{
+	  padding: 10px;
+	  margin-bottom: 10px;
+	  border: 3px dashed teal;
+	}
+
+	
+	
+		.item2{
+	  padding: 10px;
+	  margin-bottom: 10px;
+	  border: 3px dashed teal;
+	  background: linear-gradient(to bottom right, lemonchiffon, white);
+
+	}
+	.photo1{
+	  margin-top:20px;
+	}
+	
+	p {
+	   background: linear-gradient(lightblue, orange, yellow, green);
+    color: white;
+    border-radius:10px;
+	}
+	
+	span {
+	  margin-left:20px;
+	  font-weight:bold;
+	  font-size:20px;
+	}
+
+		.item3{
+	  padding: 10px;
+	  margin-bottom: 10px;
+	  border: 3px dashed teal;
+	 	  background: linear-gradient(to bottom right, lemonchiffon, white);
+
+
+	}
+	
+		.item4{
+	  padding: 10px;
+	  margin-bottom: 10px;
+	  border: 3px dashed teal;
+	 
+	}
+	
+	.photo2{
+	  margin-top:-10px;
+	  box-shadow: 2px 2px 2px gray;
+	  
+	}
+
+
+#greenrobot{
+  height:100px;
+  position: absolute;
+  left:-200px;
+  animation: slide 10s infinite;
+}
+
+@keyframes slide{
+  0% {left: -200px;}
+  50%{left: 0;}
+  100%{left: -200px;}
+}
